@@ -9,6 +9,10 @@ A seperate model is trained on T1 and T2. The model consists of an initial convo
 
 ![Model architecture](ae_t1.jpg)
 
+### Code walkthrough
+
+- [training directory](training) contains the files for running the training. 
+- [interpretability directory](interpretability) contains the files for running the interpretability 
 
 ### Dependencies
 - [PyTorch 1.10.0](http://pytorch.org)
@@ -27,3 +31,9 @@ A seperate model is trained on T1 and T2. The model consists of an initial convo
 ![Original T2 brain extracted MRI and reconstructed image from 128 dim latent space](files/Original_predicted_T2_thumbnail.png)
 
 ### How to Cite:
+
+
+### Warning
+
+* This repo is for research purpose. Using it at your own risk. 
+* This repo is under GPL-v3 license. 
