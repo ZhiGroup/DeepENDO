@@ -1,5 +1,7 @@
 ## Code walkthrough training files
 
+![Model architecture](../files/ae_t1.jpg)
+
 - dataset.py: Defines custom pytorch dataset
 - engine_128_T1.py: Code for training using T1 modality
 - engine_128_T2.py: Code for training using T2 modality
