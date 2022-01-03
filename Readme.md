@@ -19,6 +19,6 @@ A seperate model is trained on T1 and T2. The model consists of an initial convo
 
 ### Reconstruction results
 
-
+![Original T1 brain extracted MRI and reconstructed image from 128 dim latent space](files/Original_predicted_T1.png)
 
 ### How to Cite:
