@@ -1,5 +1,3 @@
-    """Dataset requires to have a csv file containing images path. The csv filed used here (sample data) contains T1 and T2 location. The modality used can be mentioned in modality argument of the dataset class.
-    """
 
 #imports
 from monai import transforms
