@@ -12,7 +12,6 @@ class aedataset(torch.utils.data.Dataset):
     def __init__(self, datafile, modality, transforms):
         
         """
-        [summary]
 
         Args:
             datafile (type: csv): the datafile mentioning the location of images.
