@@ -9,6 +9,10 @@ A seperate model is trained on T1 and T2. The model consists of an initial convo
 
 ![Model architecture](files/ae_t1.jpg)
 
+To mapping genes identified through GWAS to the specific regions of brain, we used perturbation based approach. We add noise to the dimension of the interest in the endophenotype and then identify the changes observed in the reconstruction. 
+
+![Interpretability](files/Interpretability.png)
+
 ### Code walkthrough
 
 - [training directory](training) contains the files for running the training. 
