@@ -1,6 +1,3 @@
+The visualiztion of original images and the their reconstruction.
 
-dataset.py: Contains pytorch custom dataset to images
-
-visualize.py: Contains code to save the predictions as nifti file.
-
-Resulting nifti files need to be visualized using a tool like FSL's FSLeyes giving custom options to adjust brightness and contrast.
+Since a mask was used to exclude the background while training, background has been removed post visualization. 
