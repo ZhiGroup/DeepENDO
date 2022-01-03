@@ -11,15 +11,11 @@ A seperate model is trained on T1 and T2. The model consists of an initial convo
 
 
 ### Dependencies
--[PyTorch 1.10.0](http://pytorch.org)
-
--[Nibabel 3.2.1](https://nipy.org/nibabel/)
-
--[Monai 0.7.0](https://monai.io/)
-
--[PyTorch lightning 1.4.9](https://www.pytorchlightning.ai/)
-
--[pandas 1.3.4](https://pandas.pydata.org/)
+- [PyTorch 1.10.0](http://pytorch.org)
+- [Nibabel 3.2.1](https://nipy.org/nibabel/)
+- [Monai 0.7.0](https://monai.io/)
+- [PyTorch lightning 1.4.9](https://www.pytorchlightning.ai/)
+- [pandas 1.3.4](https://pandas.pydata.org/)
 
 ### Reconstruction results
 
