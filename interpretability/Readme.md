@@ -2,7 +2,7 @@
 
 ## The basic principle behind interpretability of a particular endophenotype is to perturb the particular endophenotype by adding noise and identifying corresponding changes over the MRI. 
 
-
+![Interpreting the endophenotypes](files/Interpretability.png)
 
 ### Code walkthrough
 
