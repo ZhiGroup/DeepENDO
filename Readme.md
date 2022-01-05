@@ -24,7 +24,7 @@ To mapping genes identified through GWAS to the specific regions of brain, we us
 - [Monai 0.7.0](https://monai.io/)
 - [PyTorch lightning 1.4.9](https://www.pytorchlightning.ai/)
 - [pandas 1.3.4](https://pandas.pydata.org/)
-- [FSL 6.0.5](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FLIRT/UserGuide)
+- [FSL 6.0.5 FLIRT](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FLIRT/UserGuide)
 
 ### Reconstruction results
 
