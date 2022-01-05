@@ -15,7 +15,7 @@ To mapping genes identified through GWAS to the specific regions of brain, we us
 
 ### Code walkthrough
 
-- [training directory](training) contains the files for running the training. 
+- [training directory](training) contains the files for running the training and instructions for data preparation. 
 - [interpretability directory](interpretability) contains the files for running the interpretability 
 
 ### Dependencies
