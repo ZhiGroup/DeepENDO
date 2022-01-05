@@ -1,3 +1,4 @@
+#please use affine registered MRI. Instructions in /training/readme.md
 
 #imports
 from monai import transforms
