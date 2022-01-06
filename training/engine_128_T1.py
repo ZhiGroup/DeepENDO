@@ -228,7 +228,7 @@ train_dataset = aedataset(
 
 # defining train dataloader
 train_dataloader = torch.utils.data.DataLoader(
-    train_dataset, batch_size=1, pin_memory=True, num_workers=12, shuffle=True,
+    train_dataset, batch_size=36, pin_memory=True, num_workers=12, shuffle=True,
 )
 
 
@@ -241,7 +241,7 @@ val_dataset = aedataset(
 
 # defining validation dataloader
 val_dataloader = torch.utils.data.DataLoader(
-    val_dataset, batch_size=1, pin_memory=True, num_workers=12, shuffle=False
+    val_dataset, batch_size=36, pin_memory=True, num_workers=12, shuffle=False
 )
 
 # directory name to save checkpoints and metrics
