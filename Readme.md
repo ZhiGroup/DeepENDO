@@ -7,6 +7,8 @@ We use unsupervised learning based on 3D convolutional autoencoder architecture 
 
 A seperate model is trained on T1 and T2. The model consists of an initial convolution block, four encoder blocks, a linear latent space of 128-dimension, four decoder blocks, and a final convolution block. Mean square error using a mask excluding background was used as loss. 
 
+We also share our model weights at https://drive.google.com/drive/folders/1P9xJAxjufN2sR5TbRyILBjxmntOJi-yY?usp=sharing.  Please refer to prediction notebook in the interpretability file showing how to load the model weights.
+
 ![Model architecture](files/Model_architecture.png)
 
 To mapping genes identified through GWAS to the specific regions of brain, we used perturbation based approach. We add noise to the dimension of the interest in the endophenotype and then identify the changes observed in the reconstruction. 
