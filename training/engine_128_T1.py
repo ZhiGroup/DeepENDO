@@ -248,7 +248,7 @@ val_dataloader = torch.utils.data.DataLoader(
 dir_name = "T1_128"
 
 # initiaing the model
-AE_model = engine_AE(0.0002511886431509582)
+AE_model = engine_AE(0.0013182567385564075)
 
 # learning rate monitor as using scheduler
 lr_monitor = LearningRateMonitor(logging_interval="epoch")
