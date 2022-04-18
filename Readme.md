@@ -9,7 +9,7 @@ A seperate model is trained on T1 and T2. The model consists of an initial convo
 
 We also share our model weights at https://drive.google.com/drive/folders/16IXv-w6xpHhEQiSNjRSI8S5wS4QDjGKE?usp=sharing.  Please refer to prediction notebook in the interpretability file showing how to load the model weights.
 
-![Data preprocessing]
+### Data preprocessing
 We did linear registration (12 DOF) to the preprocessed  brain extracted MRI provided by UKBiobank. 
 https://git.fmrib.ox.ac.uk/falmagro/UK_biobank_pipeline_v_1/-/tree/master/
 
