@@ -7,7 +7,7 @@ We use unsupervised learning based on 3D convolutional autoencoder architecture 
 
 A seperate model is trained on T1 and T2. The model consists of an initial convolution block, four encoder blocks, a linear latent space of 128-dimension, four decoder blocks, and a final convolution block. Mean square error using a mask excluding background was used as loss. 
 
-We also share our model weights at https://drive.google.com/drive/folders/1P9xJAxjufN2sR5TbRyILBjxmntOJi-yY?usp=sharing.  Please refer to prediction notebook in the interpretability file showing how to load the model weights.
+We also share our model weights at https://drive.google.com/drive/folders/16IXv-w6xpHhEQiSNjRSI8S5wS4QDjGKE?usp=sharing.  Please refer to prediction notebook in the interpretability file showing how to load the model weights.
 
 ![Data preprocessing]
 We did linear registration (12 DOF) to the preprocessed  brain extracted MRI provided by UKBiobank. 
