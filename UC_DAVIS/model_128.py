@@ -1,15 +1,12 @@
-import pytorch_lightning as pl
 import torch
 from torch.nn import functional as F
 from torch import nn
 
-class engine_AE(pl.LightningModule):
-    def __init__(self, lr):
+class engine_AE(nn.Module):
+    def __init__(self):
         super().__init__()
-        self.save_hyperparameters()
 
         self.hidden_dim = 128
-        # self.pred_num = 3
         self.first_cnn = self.first_CNN_block(1, 16)
         self.first_max_poold = self.max_poold((1, 1, 1))
         self.first_encoder = self.encoder_block(16, 32)
@@ -36,15 +33,6 @@ class engine_AE(pl.LightningModule):
         self.fourth_transconv = self.conv_transpose(16, input_padding=(1, 1, 1))
         self.last_cnn = self.last_CNN_block(16, 1)
 
-        self.train_loss_function1 = torch.nn.MSELoss(
-            size_average=None, reduce=None, reduction="none"
-        )
-        self.valid_loss_function = torch.nn.MSELoss(
-            size_average=None, reduce=None, reduction="none"
-        )
-
-        # self.train_loss_function1 = torch.nn.MSELoss()
-        # self.valid_loss_function = torch.nn.MSELoss()
 
     def max_poold(self, max_padding):
         max_pd = nn.MaxPool3d(kernel_size=2, padding=max_padding)
@@ -113,8 +101,6 @@ class engine_AE(pl.LightningModule):
 
         return cnn_block
 
-        # # self.valid_loss_function2 = torch.nn.MSELoss()
-
     def forward(self, x):
         x = self.first_cnn(x)
         x = self.first_max_poold(x)
@@ -127,13 +113,11 @@ class engine_AE(pl.LightningModule):
         x = self.fourth_encoder(x)
         shape = x.size()
 
-        # flattening encoder output
         enc_features = torch.flatten(
             x, start_dim=1, end_dim=-1
-        )  # to keep batch dimension intact
+        )  
 
         lin1 = self.encoding_mlp(enc_features)
-        # Going from hidden dimension to original image recon
         dec = self.decoding_mlp(lin1)
         dec = dec.view(shape)
         dec = self.first_decoder(dec)
