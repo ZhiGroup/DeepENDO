@@ -13,11 +13,11 @@ We also share our model weights at https://drive.google.com/drive/folders/16IXv-
 We did linear registration (12 DOF) to the preprocessed  brain extracted MRI provided by UKBiobank. 
 https://git.fmrib.ox.ac.uk/falmagro/UK_biobank_pipeline_v_1/-/tree/master/
 
-![Model architecture](files/Model_architecture.png)
+![Model architecture](files/Model_architecture.jpg)
 
 For mapping genes identified through GWAS to the specific regions of brain, we used perturbation based approach. We add noise to the dimension of the interest in the endophenotype and then identify the changes observed in the reconstruction. 
 
-![Interpretability](files/Interpretability.png)
+![Interpretability](interpretability/Interpretability.jpg)
 
 ### Code walkthrough
 
