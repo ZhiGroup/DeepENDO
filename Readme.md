@@ -3,7 +3,13 @@
 ### This is the official repository accompanying the paper Xie et al. Unsupervised representation learning of Brain MRI as phenotypes for genetic association studies. 
 ---
 ### Overview
-We use unsupervised learning based on 3D convolutional autoencoder architecture to derive 128-dimensional imaging derived endophenotypes to represent complex genetic architecture of the human brain. 
+We use unsupervised learning based on 3D convolutional autoencoder architecture to derive 128-dimensional imaging derived endophenotypes to represent complex genetic architecture of the human brain. The deep learning derived endophenotypes (ENDOs) identify 1,132 significant (P<5*10-8/256) SNP-ENDO pairs, out of which 658 are replicated (P<0.05/1132) in a seperate replication cohort.
+
+**Overall Pipeline**
+![Overall pipeline](files/Overall_figure.jpg)
+
+**Miami plot showing GWAS results in discovery and replication cohorts**
+![Miami plot GWAS](files/miami_plot.jpg)
 
 A seperate model is trained on T1 and T2. The model consists of an initial convolution block, four encoder blocks, a linear latent space of 128-dimension, four decoder blocks, and a final convolution block. Mean square error using a mask excluding background was used as loss. 
 
@@ -35,11 +41,10 @@ For mapping genes identified through GWAS to the specific regions of brain, we u
 ### Reconstruction results
 
 **Original T1 brain extracted MRI and reconstructed image from 128 dim latent space**
-![Original T1 brain extracted MRI and reconstructed image from 128 dim latent space](files/Original_predicted_T1.png)
-
+![Original T1 brain extracted MRI and reconstructed image from 128 dim latent space](files/T1_lightbox.jpg)
 
 **Original T2 brain extracted MRI and reconstructed image from 128 dim latent space**
-![Original T2 brain extracted MRI and reconstructed image from 128 dim latent space](files/Original_predicted_T2.png)
+![Original T2 brain extracted MRI and reconstructed image from 128 dim latent space](files/T2_lightbox.jpg)
 
 ### How to Cite:
 
