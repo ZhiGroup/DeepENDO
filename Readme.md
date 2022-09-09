@@ -15,10 +15,7 @@ A seperate model is trained on T1 and T2. The model consists of an initial convo
 
 We also share our model weights at https://drive.google.com/drive/folders/16IXv-w6xpHhEQiSNjRSI8S5wS4QDjGKE?usp=sharing.  Please refer to prediction notebook in the interpretability file showing how to load the model weights.
 
-### Data preprocessing
-We did linear registration (12 DOF) to the preprocessed  brain extracted MRI provided by UKBiobank. 
-https://git.fmrib.ox.ac.uk/falmagro/UK_biobank_pipeline_v_1/-/tree/master/
-
+**Model architecture**
 ![Model architecture](files/Model_architecture.jpg)
 
 For mapping genes identified through GWAS to the specific regions of brain, we used perturbation based approach. We add noise to the dimension of the interest in the endophenotype and then identify the changes observed in the reconstruction. 
@@ -37,6 +34,10 @@ For mapping genes identified through GWAS to the specific regions of brain, we u
 - [PyTorch lightning 1.4.9](https://www.pytorchlightning.ai/)
 - [pandas 1.3.4](https://pandas.pydata.org/)
 - [FSL 6.0.5 FLIRT](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FLIRT/UserGuide)
+
+### Data preprocessing
+We did linear registration (12 DOF) to the preprocessed  brain extracted MRI provided by UKBiobank. 
+https://git.fmrib.ox.ac.uk/falmagro/UK_biobank_pipeline_v_1/-/tree/master/
 
 ### Reconstruction results
 
