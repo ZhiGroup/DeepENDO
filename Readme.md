@@ -20,7 +20,7 @@ We also share our model weights at https://drive.google.com/drive/folders/16IXv-
 
 For mapping genes identified through GWAS to the specific regions of brain, we used perturbation based approach. We add noise to the dimension of the interest in the endophenotype and then identify the changes observed in the reconstruction. 
 
-**Interpretability pipeline**
+**Interpretation pipeline**
 ![Interpretability](interpretability/Interpretability.jpg)
 
 ### Code walkthrough
