@@ -5,9 +5,13 @@
 ![Interpreting the endophenotypes](Interpretability.jpg)
 
 ### Code walkthrough
+
 -perturbation based approach.ipynb: Perturbation based approach using decoder to map ENDOs to regions of brain.
+
 -KS_statistic.ipynb: Generate KS statistic plots using Harvard Oxford cortical and subcortical atlas.
+
 -model128.py: contains the autoencoder model used for the training.
+
 -ENDOs_T2_128.ipynb: Sample code to generate 128 dimensional ENDOs
 
 ### Requirements
