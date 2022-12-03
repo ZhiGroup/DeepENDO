@@ -1,6 +1,6 @@
 # New phenotype discovery method by unsupervised deep representation learning empowers genetic association studies of Brain MRIs. 
 ---
-### This is the official repository accompanying the paper.
+This is the official repository accompanying the paper.
 
 ### Authors: 
 
