@@ -2,7 +2,9 @@
 ---
 ### This is the official repository accompanying the paper New phenotype discovery method by unsupervised deep representation learning empowers genetic association studies of Brain MRIs. 
 ---
-Authors: Khush Patel, Ziqian Xie, Hao Yuan, Sheikh Muhammad Saiful Islam, Wanheng Zhang, Assaf Gottlieb, Han Chen, Luca Giancardo, Alexander Knaack, Evan Fletcher, Myriam Fornage, Shuiwang Ji, Degui Zhi
+### Authors: 
+
+Khush Patel, Ziqian Xie, Hao Yuan, Sheikh Muhammad Saiful Islam, Wanheng Zhang, Assaf Gottlieb, Han Chen, Luca Giancardo, Alexander Knaack, Evan Fletcher, Myriam Fornage, Shuiwang Ji, Degui Zhi
 ---
 
 ### Overview
