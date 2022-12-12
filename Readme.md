@@ -8,7 +8,6 @@ This is the official repository accompanying the paper.
 
 ---
 
-
 ### Overview
 We use unsupervised learning based on 3D convolutional autoencoder architecture to derive 128-dimensional imaging derived endophenotypes to represent complex genetic architecture of the human brain. The deep learning derived endophenotypes (ENDOs) identify 1,132 significant (P<5*10-8/256) SNP-ENDO pairs, out of which 658 are replicated (P<0.05/1132) in a seperate replication cohort.
 
@@ -54,6 +53,10 @@ https://git.fmrib.ox.ac.uk/falmagro/UK_biobank_pipeline_v_1/-/tree/master/
 
 **Original T2 brain extracted MRI and reconstructed image from 128 dim latent space**
 ![Original T2 brain extracted MRI and reconstructed image from 128 dim latent space](files/T2_lightbox.png)
+
+### Acknowledgements
+
+This work was supported by grants from the National Institute of Aging (U01 AG070112-01A1). In addition, L.G. is supported in part by NIH grants UL1TR003167 and R01NS121154.
 
 ### How to Cite:
 
