@@ -40,7 +40,9 @@ For mapping genes identified through GWAS to the specific regions of brain, we u
 - [Monai 0.7.0](https://monai.io/)
 - [PyTorch lightning 1.4.9](https://www.pytorchlightning.ai/)
 - [pandas 1.3.4](https://pandas.pydata.org/)
+- [torchmetrics 0.8.2](https://torchmetrics.readthedocs.io/en/stable/)
 - [FSL 6.0.5 FLIRT](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FLIRT/UserGuide)
+
 
 ### Data preprocessing
 We did linear registration (12 DOF) to the preprocessed  brain extracted MRI provided by UKBiobank. 
