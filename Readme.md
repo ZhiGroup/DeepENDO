@@ -2,13 +2,13 @@
 ---
 This is the official repository accompanying the paper.
 
-### Authors: 
+## Authors: 
 
 <h4> Khush Patel, Ziqian Xie, Hao Yuan, Sheikh Muhammad Saiful Islam, Wanheng Zhang, Assaf Gottlieb, Han Chen, Luca Giancardo, Alexander Knaack, Evan Fletcher, Myriam Fornage, Shuiwang Ji, Degui Zhi. </h4>
 
 ---
 
-### Overview
+## Overview
 We use unsupervised learning based on 3D convolutional autoencoder architecture to derive 128-dimensional imaging derived endophenotypes to represent complex genetic architecture of the human brain. The deep learning derived endophenotypes (ENDOs) identify 1,132 significant (P<5*10-8/256) SNP-ENDO pairs, out of which 658 are replicated (P<0.05/1132) in a seperate replication cohort.
 
 **Overall Pipeline**
@@ -30,12 +30,12 @@ For mapping genes identified through GWAS to the specific regions of brain, we u
 **Interpretation pipeline**
 ![Interpretability](interpretation/Interpretability.jpg)
 
-### Code walkthrough
+## Code walkthrough
 
 - [training directory](training) contains the files for running the training and instructions for data preparation. 
 - [interpretation directory](interpretation) contains the files for running the decoder generated perturbation based approach. 
 
-### Dependencies
+## Dependencies
 - [PyTorch 1.10.0](http://pytorch.org)
 - [Nibabel 3.2.1](https://nipy.org/nibabel/)
 - [Monai 0.7.0](https://monai.io/)
@@ -44,30 +44,28 @@ For mapping genes identified through GWAS to the specific regions of brain, we u
 - [torchmetrics 0.8.2](https://torchmetrics.readthedocs.io/en/stable/)
 - [FSL 6.0.5 FLIRT](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FLIRT/UserGuide)
 
-
-### Data preprocessing
+## Data preprocessing
 We did linear registration (12 DOF) to the preprocessed  brain extracted MRI provided by UKBiobank. 
 https://git.fmrib.ox.ac.uk/falmagro/UK_biobank_pipeline_v_1/-/tree/master/
 
-### Reconstruction results
+## Reconstruction results
 
 **Original T1 brain extracted MRI and reconstructed image from 128 dim latent space**
 <img src="files/T1_lightbox.png" alt="Original T1 brain extracted MRI and reconstructed image from 128 dim latent space"/>
 
 
-
 **Original T2 brain extracted MRI and reconstructed image from 128 dim latent space**
 ![Original T2 brain extracted MRI and reconstructed image from 128 dim latent space](files/T2_lightbox.png)
 
-### Acknowledgements
+## Acknowledgements
 
 This work was supported by grants from the National Institute of Aging (U01 AG070112-01A1). In addition, L.G. is supported in part by NIH grants UL1TR003167 and R01NS121154.
 
-### How to Cite:
+## How to Cite:
 
 Patel, K., Xie, Z., Yuan, H., Islam, S. M. S., Zhang, W., Gottlieb, A., Chen, H., Giancardo, L., Knaack, A., Fletcher, E., Fornage, M., Ji, S., & Zhi, D. (2022). New phenotype discovery method by unsupervised deep representation learning empowers genetic association studies of brain imaging. MedRxiv, 2022.12.10.22283302. https://doi.org/10.1101/2022.12.10.22283302
 
-### Warning
+## Warning
 
 * This repo is for research purpose. Using it at your own risk. 
 
