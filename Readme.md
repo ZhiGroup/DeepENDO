@@ -13,11 +13,11 @@ We use unsupervised learning based on 3D convolutional autoencoder architecture 
 
 **Overall Pipeline**
 
-<img src="files/Overall_figure.jpg" width=800 align="center">
+<img src="files/Overall_figure.jpg" width=500 align="center">
 
 **Aggregated Miami plot of all 256 single ENDO GWASs in discovery and replication cohorts**
 
-<img src="files/miami_plot.jpg" width=800 align="center">
+<img src="files/miami_plot.jpg" width=500 align="center">
 
 A seperate model is trained on T1 and T2. The model consists of an initial convolution block, four encoder blocks, a linear latent space of 128-dimension, four decoder blocks, and a final convolution block. Mean square error using a mask excluding background was used as loss. 
 
@@ -25,7 +25,7 @@ We also share our model weights at https://drive.google.com/drive/folders/16IXv-
 
 **Model architecture**
 
-<img src="files/Model_architecture.jpg" width=800 align="center">
+<img src="files/Model_architecture.jpg" width=500 align="center">
 
 For mapping genes identified through GWAS to the specific regions of brain, we used perturbation based approach. We add noise to the dimension of the interest in the endophenotype and then identify the changes observed in the reconstruction. 
 
