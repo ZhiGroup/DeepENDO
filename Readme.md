@@ -25,7 +25,7 @@ We also share our model weights at https://drive.google.com/drive/folders/16IXv-
 
 **Model architecture**
 
-<img src="files/Model_architecture.jpg" width=600 align="center">
+<img src="files/Model_architecture.jpg" width=800 align="center">
 
 For mapping genes identified through GWAS to the specific regions of brain, we used perturbation based approach. We add noise to the dimension of the interest in the endophenotype and then identify the changes observed in the reconstruction. 
 
@@ -33,7 +33,7 @@ For mapping genes identified through GWAS to the specific regions of brain, we u
 
 Using the decoder neural network, we designed a perturbation-based decoder-interpretation (PerDI), which can tell what brain regions one ENDO dimension can map to. Without human labels, we rediscovered genes relevant to Thalamus, Pallidum, and Putamen.
 
-<img src="files/PerDI.jpg" width=600 align="center">
+<img src="files/PerDI.jpg" width=800 align="center">
 
 ## Code walkthrough
 
