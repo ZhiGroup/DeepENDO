@@ -15,22 +15,24 @@ We use unsupervised learning based on 3D convolutional autoencoder architecture 
 
 <img src="files/Overall_figure.jpg" width=800 align="center">
 
-**Miami plot showing GWAS results in discovery and replication cohorts**
+**Aggregated Miami plot of all 256 single ENDO GWASs in discovery and replication cohorts**
 
 <img src="files/miami_plot.jpg" width=800 align="center">
-
 
 A seperate model is trained on T1 and T2. The model consists of an initial convolution block, four encoder blocks, a linear latent space of 128-dimension, four decoder blocks, and a final convolution block. Mean square error using a mask excluding background was used as loss. 
 
 We also share our model weights at https://drive.google.com/drive/folders/16IXv-w6xpHhEQiSNjRSI8S5wS4QDjGKE?usp=sharing.  Please refer to prediction notebook in the interpretation file showing how to load the model weights.
 
 **Model architecture**
-![Model architecture](files/Model_architecture.jpg)
+
+<img src="files/Model_architecture.jpg" width=800 align="center">
 
 For mapping genes identified through GWAS to the specific regions of brain, we used perturbation based approach. We add noise to the dimension of the interest in the endophenotype and then identify the changes observed in the reconstruction. 
 
 **Interpretation pipeline**
-![Interpretability](interpretation/Interpretability.jpg)
+
+<img src="interpretation/Interpretability.jpg" width=800 align="center">
+
 
 ## Code walkthrough
 
@@ -53,11 +55,12 @@ https://git.fmrib.ox.ac.uk/falmagro/UK_biobank_pipeline_v_1/-/tree/master/
 ## Reconstruction results
 
 **Original T1 brain extracted MRI and reconstructed image from 128 dim latent space**
-<img src="files/T1_lightbox.png" alt="Original T1 brain extracted MRI and reconstructed image from 128 dim latent space"/>
+
 
 
 **Original T2 brain extracted MRI and reconstructed image from 128 dim latent space**
-![Original T2 brain extracted MRI and reconstructed image from 128 dim latent space](files/T2_lightbox.png)
+<img src="files/T2_lightbox.png" width=800 align="center">
+
 
 ## Acknowledgements
 
