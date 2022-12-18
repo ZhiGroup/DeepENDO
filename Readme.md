@@ -1,10 +1,10 @@
-# New phenotype discovery method by unsupervised deep representation learning empowers genetic association studies of brain imaging.
+# [New phenotype discovery method by unsupervised deep representation learning empowers genetic association studies of brain imaging](https://www.medrxiv.org/content/10.1101/2022.12.10.22283302v1)
 ---
 This is the official repository accompanying the paper.
 
 ### Authors: 
 
-<h4> Khush Patel, Ziqian Xie, Hao Yuan, Sheikh Muhammad Saiful Islam, Wanheng Zhang, Assaf Gottlieb, Han Chen, Luca Giancardo, Alexander Knaack, Evan Fletcher, Myriam Fornage, Shuiwang Ji, Degui Zhi </h4>
+<h4> Khush Patel, Ziqian Xie, Hao Yuan, Sheikh Muhammad Saiful Islam, Wanheng Zhang, Assaf Gottlieb, Han Chen, Luca Giancardo, Alexander Knaack, Evan Fletcher, Myriam Fornage, Shuiwang Ji, Degui Zhi. </h4>
 
 ---
 
@@ -62,8 +62,9 @@ This work was supported by grants from the National Institute of Aging (U01 AG07
 
 ### How to Cite:
 
+Patel, K., Xie, Z., Yuan, H., Islam, S. M. S., Zhang, W., Gottlieb, A., Chen, H., Giancardo, L., Knaack, A., Fletcher, E., Fornage, M., Ji, S., & Zhi, D. (2022). New phenotype discovery method by unsupervised deep representation learning empowers genetic association studies of brain imaging. MedRxiv, 2022.12.10.22283302. https://doi.org/10.1101/2022.12.10.22283302
 
 ### Warning
 
 * This repo is for research purpose. Using it at your own risk. 
-* This repo is under GPL-v3 license. 
+
