@@ -16,7 +16,9 @@ We use unsupervised learning based on 3D convolutional autoencoder architecture 
 <img src="files/Overall_figure.jpg" width=800 align="center">
 
 **Miami plot showing GWAS results in discovery and replication cohorts**
-![Miami plot GWAS](files/miami_plot.jpg)
+
+<img src="files/miami_plot.jpg" width=800 align="center">
+
 
 A seperate model is trained on T1 and T2. The model consists of an initial convolution block, four encoder blocks, a linear latent space of 128-dimension, four decoder blocks, and a final convolution block. Mean square error using a mask excluding background was used as loss. 
 
