@@ -52,16 +52,6 @@ For mapping genes identified through GWAS to the specific regions of brain, we u
 We did linear registration (12 DOF) to the preprocessed  brain extracted MRI provided by UKBiobank. 
 https://git.fmrib.ox.ac.uk/falmagro/UK_biobank_pipeline_v_1/-/tree/master/
 
-## Reconstruction results
-
-**Original T1 brain extracted MRI and reconstructed image from 128 dim latent space**
-
-
-
-**Original T2 brain extracted MRI and reconstructed image from 128 dim latent space**
-<img src="files/T2_lightbox.png" width=800 align="center">
-
-
 ## Acknowledgements
 
 This work was supported by grants from the National Institute of Aging (U01 AG070112-01A1). In addition, L.G. is supported in part by NIH grants UL1TR003167 and R01NS121154.
