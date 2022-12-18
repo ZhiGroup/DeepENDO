@@ -1,6 +1,6 @@
 # [New phenotype discovery method by unsupervised deep representation learning empowers genetic association studies of brain imaging](https://www.medrxiv.org/content/10.1101/2022.12.10.22283302v1)
 
-
+<img src="files/deependo.gif">
 
 
 
