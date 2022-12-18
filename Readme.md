@@ -6,14 +6,14 @@ This is the official repository accompanying the paper.
 
 <h4> Khush Patel, Ziqian Xie, Hao Yuan, Sheikh Muhammad Saiful Islam, Wanheng Zhang, Assaf Gottlieb, Han Chen, Luca Giancardo, Alexander Knaack, Evan Fletcher, Myriam Fornage, Shuiwang Ji, Degui Zhi. </h4>
 
----
+<hr />
 
 ## Overview
 We use unsupervised learning based on 3D convolutional autoencoder architecture to derive 128-dimensional imaging derived endophenotypes to represent complex genetic architecture of the human brain. The deep learning derived endophenotypes (ENDOs) identify 1,132 significant (P<5*10-8/256) SNP-ENDO pairs, out of which 658 are replicated (P<0.05/1132) in a seperate replication cohort.
 
 **Overall Pipeline**
 
-![Overall pipeline](files/Overall_figure.jpg)
+<img src="files/Overall_figure.jpg" width=800 align="center">
 
 **Miami plot showing GWAS results in discovery and replication cohorts**
 ![Miami plot GWAS](files/miami_plot.jpg)
