@@ -6,9 +6,9 @@
 
 ### Code walkthrough
 
-- perturbation based approach.ipynb: Perturbation based approach using decoder to map ENDOs to regions of brain.
+- perturbation based approach.ipynb: Perturbation based approach using decoder to map ENDOs to regions of brain. 
 
-- KS_statistic.ipynb: Generate KS statistic plots using Harvard Oxford cortical and subcortical atlas.
+- KS_statistic.ipynb: Generate KS statistic plots using Harvard Oxford cortical and subcortical atlas. Harvard Oxford subcortical atlas includes labels cerebral cortex and white matter which are included here but can be excluded as in manuscript figures to emphasize subcortical structures.
 
 - model128.py: contains the autoencoder model used for the training.
 
