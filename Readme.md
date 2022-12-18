@@ -51,7 +51,9 @@ https://git.fmrib.ox.ac.uk/falmagro/UK_biobank_pipeline_v_1/-/tree/master/
 ### Reconstruction results
 
 **Original T1 brain extracted MRI and reconstructed image from 128 dim latent space**
-![Original T1 brain extracted MRI and reconstructed image from 128 dim latent space](files/T1_lightbox.png)
+<img src="files/T1_lightbox.png" alt="Original T1 brain extracted MRI and reconstructed image from 128 dim latent space" width="200"/>
+
+
 
 **Original T2 brain extracted MRI and reconstructed image from 128 dim latent space**
 ![Original T2 brain extracted MRI and reconstructed image from 128 dim latent space](files/T2_lightbox.png)
