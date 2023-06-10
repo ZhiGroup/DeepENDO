@@ -1,4 +1,4 @@
-# Generating 128 dimensional UDIPs
+# Generating 128 dimensional UDIPs (also referred to as ENDOs)
 
 ## Running the UDIP pipeline
 
@@ -17,7 +17,7 @@ Arguments
 - `-m` or `--modality`: (required) The column name in the CSV file containing the image paths.
 - `-c` or `--ckpt`: (required) The path to the checkpoint file.
 - `-d` or `--device`: (optional) The device to run on (with a default value of "cuda:0" if not specified).
-- `-o` or `--output`: (required) The output directory. Output contains UDIPs, losses, and correlation heatmap.
+- `-o` or `--output`: (required) The output directory. Output contains csv containing 128 dimensional UDIPs, losses, and correlation heatmap.
 
 
 ## Code walkthrough pipeline files
