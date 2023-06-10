@@ -43,7 +43,7 @@ Using the decoder neural network, we designed a perturbation-based decoder-inter
 
 ## Code walkthrough
 
-- [UDIP directory](generating UDIPs) contains the files for generating UDIPs (also referred to as ENDOs). Read UDIPs/readme for clear instructions on how to run as command line tool.
+- [UDIP directory](UDIPs) contains the files for generating UDIPs (also referred to as ENDOs). Read UDIPs/readme for clear instructions on how to run as command line tool.
 - [training directory](training) contains the files for running the training and instructions for data preparation. 
 - [interpretation directory](interpretation) contains the files for running the decoder generated perturbation based approach. 
 
