@@ -43,10 +43,12 @@ Using the decoder neural network, we designed a perturbation-based decoder-inter
 
 ## Code walkthrough
 
+- [UDIP directory](generating UDIPs) contains the files for generating UDIPs. Read UDIPs/readme for clear instructions on how to run as command line tool.
 - [training directory](training) contains the files for running the training and instructions for data preparation. 
 - [interpretation directory](interpretation) contains the files for running the decoder generated perturbation based approach. 
 
-## Dependencies
+## Dependencies 
+
 - [PyTorch 1.10.0](http://pytorch.org)
 - [Nibabel 3.2.1](https://nipy.org/nibabel/)
 - [Monai 0.7.0](https://monai.io/)
