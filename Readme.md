@@ -13,7 +13,7 @@ This is the official repository accompanying the paper New phenotype discovery m
 <hr />
 
 ## Overview
-We use unsupervised learning based on 3D convolutional autoencoder architecture to derive 128-dimensional imaging derived endophenotypes to represent complex genetic architecture of the human brain. The deep learning derived endophenotypes (ENDOs) identify 1,132 significant (P<5*10-8/256) SNP-ENDO pairs, out of which 658 are replicated (P<0.05/1132) in a seperate replication cohort.
+We use unsupervised learning based on 3D convolutional autoencoder architecture to derive 128-dimensional imaging derived endophenotypes to represent complex genetic architecture of the human brain. The deep learning derived endophenotypes (ENDOs) (also referred to as UDIP: Unsupervised Deep learning derived Imaging Phenotypes) identify 1,132 significant (P<5*10-8/256) SNP-ENDO pairs, out of which 658 are replicated (P<0.05/1132) in a seperate replication cohort.
 
 **Overall Pipeline**
 
@@ -43,7 +43,7 @@ Using the decoder neural network, we designed a perturbation-based decoder-inter
 
 ## Code walkthrough
 
-- [UDIP directory](generating UDIPs) contains the files for generating UDIPs. Read UDIPs/readme for clear instructions on how to run as command line tool.
+- [UDIP directory](generating UDIPs/ENDOs) contains the files for generating UDIPs (also referred to as ENDOs). Read UDIPs/readme for clear instructions on how to run as command line tool.
 - [training directory](training) contains the files for running the training and instructions for data preparation. 
 - [interpretation directory](interpretation) contains the files for running the decoder generated perturbation based approach. 
 
