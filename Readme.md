@@ -75,5 +75,6 @@ Patel, K., Xie, Z., Yuan, H., Islam, S. M. S., Zhang, W., Gottlieb, A., Chen, H.
 
 ## Warning
 
-* This repo is for research purpose. Using it at your own risk. 
+* This repo is for research purpose. Using it at your own risk.
+* GPL-v3 license.
 
