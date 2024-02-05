@@ -1,4 +1,4 @@
-# Unsupervised Deep Representation Learning Enables Phenotype Discovery For Genetic Association Studies Of Brain Imaging
+# Unsupervised Deep Representation Learning Enables Phenotype Discovery For Genetic Association Studies of Brain Imaging
 
 <img src="files/deependo.gif">
 
