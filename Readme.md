@@ -1,25 +1,23 @@
-# [New phenotype discovery method by unsupervised deep representation learning empowers genetic association studies of brain imaging](https://www.medrxiv.org/content/10.1101/2022.12.10.22283302v1)
+# Unsupervised deep representation learning enables phenotype discovery for genetic association studies of brain imaging
 
 <img src="files/deependo.gif">
 
-
-
-This is the official repository accompanying the paper New phenotype discovery method by unsupervised deep representation learning empowers genetic association studies of brain imaging.
+This is the official repository accompanying the paper Unsupervised deep representation learning enables phenotype discovery for genetic association studies of brain imaging.
 
 #### Authors: 
 
-<h4> Khush Patel, Ziqian Xie, Hao Yuan, Sheikh Muhammad Saiful Islam, Wanheng Zhang, Assaf Gottlieb, Han Chen, Luca Giancardo, Alexander Knaack, Evan Fletcher, Myriam Fornage, Shuiwang Ji, Degui Zhi. </h4>
+<h4> Khush Patel, Ziqian Xie, Hao Yuan, Sheikh Muhammad Saiful Islam, Yaochen Xie, Wei He, Wanheng Zhang, Assaf Gottlieb, Han Chen, Luca Giancardo, Alexander Knaack, Evan Fletcher, Myriam Fornage, Shuiwang Ji, Degui Zhi. </h4>
 
 <hr />
 
 ## Overview
-We use unsupervised learning based on 3D convolutional autoencoder architecture to derive 128-dimensional imaging derived endophenotypes to represent complex genetic architecture of the human brain. The deep learning derived endophenotypes (ENDOs) (also referred to as UDIP: Unsupervised Deep learning derived Imaging Phenotypes) identify 1,132 significant (P<5*10-8/256) SNP-ENDO pairs, out of which 658 are replicated (P<0.05/1132) in a seperate replication cohort.
+We use unsupervised learning based on 3D convolutional autoencoder architecture to derive 128-dimensional imaging derived endophenotypes to represent complex genetic architecture of the human brain. The deep learning derived endophenotypes UDIPs (UDIP: Unsupervised Deep learning derived Imaging Phenotypes) identified 9,457 significant SNPs organized into 97 independent genetic loci of which 60 loci were replicated. Twenty-six loci were not reported in earlier T1 and T2 IDP-based UK Biobank GWAS. 
 
 **Overall Pipeline**
 
 <img src="files/Overall_figure.jpg" width=600 align="center">
 
-**Aggregated Miami plot of all 256 single ENDO GWASs in discovery and replication cohorts**
+## Aggregated Miami plot of all 256 single ENDO GWASs in discovery and replication cohorts
 
 <img src="files/miami_plot.jpg" width=600 align="center">
 
@@ -27,13 +25,13 @@ A seperate model is trained on T1 and T2. The model consists of an initial convo
 
 We also share our [model weights](https://drive.google.com/drive/folders/16IXv-w6xpHhEQiSNjRSI8S5wS4QDjGKE?usp=sharing). Please refer to [notebook](interpretation/ENDOs_T2_128.ipynb) in the interpretation file showing how to load the model weights.
 
-**Model architecture**
+## Model architecture
 
 <img src="files/Model_architecture.jpg" width=800 align="center">
 
 For mapping genes identified through GWAS to the specific regions of brain, we used perturbation based approach. We add noise to the dimension of the interest in the endophenotype and then identify the changes observed in the reconstruction. 
 
-**Interpretation pipeline**
+## Interpretation pipeline
 
 Using the decoder neural network, we designed a perturbation-based decoder-interpretation (PerDI), which can tell what brain regions one ENDO dimension can map to. Without human labels, we rediscovered genes relevant to Thalamus, Pallidum, and Putamen.
 
