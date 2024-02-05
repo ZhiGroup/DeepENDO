@@ -36,3 +36,8 @@ ckpts: Download checkpoints here
 
 Download the checkpoint file from the provided link and place it in the `ckpt` directory:
      [Checkpoints Download](https://drive.google.com/drive/folders/16IXv-w6xpHhEQiSNjRSI8S5wS4QDjGKE?usp=drive_link)
+
+## Dummy data
+
+Dummy data of random nifti images generated of size 182,218,182 (similar to MNI registered brain MRI) are provided to help understand how dataloader expects the data to be presented
+https://drive.google.com/drive/folders/1A_wKs5yhRs_c0BL0PEKWkQ2IrvRQncbE?usp=sharing
